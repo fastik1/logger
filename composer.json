@@ -1,0 +1,22 @@
+{
+    "name": "fastik1/logger",
+    "type": "library",
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "ext-json": "*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Fastik1\\Logger\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "fastik1"
+        }
+    ],
+    "minimum-stability": "stable"
+}
